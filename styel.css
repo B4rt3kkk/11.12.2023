@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.lewo{
+    padding: 2%;
+    width: 20%;
+    background-color: greenyellow;
+    max-height: auto;
+}
+.goraLewo{
+    width: 100%;
+    padding: 10%;
+    margin-left: 5%;
+}
+button{
+    width: 80px;
+    height: 80px;
+    margin: 1%;
+    font-size: 20px;
+}
+.WartoscZmiennej{
+    width: 100%;
+    padding: 5%;
+}
+#ZmianaWartosci{
+    width: 92%;
+    height: 25px;
+    margin: 1;
+    font-size: 15px;
+}
+input{
+    margin: 1%;
+    width: 90%;
+    height: 20px;
+}
+.srodek{
+    width: 60%;
+    background-color: green;
+    max-height: 100%;
+}
+.prawo{
+    padding: 2%;
+    width: 20%;
+    background-color: yellow;
+    max-height: auto;
+}
+.goraPrawo{
+    width: 80%;
+    padding: 10%;
+    margin-left: 5%;
+}
+.black{
+    background-color: black;
+    color: gold;
+}
+.yellow{
+    background-color: gold;
+    color: black;
+}
+p{
+    margin: 0;
+}
+.dol{
+    margin-top: 180%;
+}
+.reset{
+    width: 100%;
+}

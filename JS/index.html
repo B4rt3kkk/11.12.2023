@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript</title>
+</head>
+    <body>
+
+        <!--
+            Operatory arytmetyczne 
+            +
+            - 
+            *
+            /   
+            %
+            ++
+            --
+            -
+            +
+        -->
+
+        <div class="wrapper">
+            
+                <label for=""> Wpisz tekst </label>
+                <input type="text" id="text">
+                <button onclick="getValue()">Wyślij</button>
+                <button onclick="changeFontColor()">Zmień kolor</button>
+                <button onclick="changeBackground()">Zmień Tło</button>
+                <button onclick="changeColor('yellow')">Zmień kolor 2</button>
+                <button onclick="changeFontSize()">Zmień czciąkę</button>
+                <button onclick="changeclear()">Cofnij czas</button>
+            <div id="result">
+                asd
+            </div>
+        </div>
+
+        <script>
+            function getValue(){
+                var inputValue = document.getElementById("text").value;
+                console.log(inputValue);
+                document.getElementById("result").innerText = inputValue;
+
+            }
+            function changeFontColor(){
+                document.getElementById("result").style.color = "darkgreen";
+            }
+            function changeBackground(){
+                document.getElementById("result").style.background = "yellowgreen";
+            }
+            function changeColor(color){
+                document.getElementById("result").style.color = color;
+            }
+            function changeFontSize(){
+                document.getElementById("result").style.fontSize = "32px";
+            }
+            function changeclear(){
+                document.getElementById("result").style.color = "black";
+                document.getElementById("result").style.background = "white";
+                document.getElementById("result").style.fontSize = "1rem";
+            }
+        </script>
+
+    </body>
+</html>
